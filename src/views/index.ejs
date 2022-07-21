@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Tech Bookstore</title>
+    <title><%=pageTitle %></title>
 </head>
 
 <body>
-    <h1>Tech Bookstore</h1>
+    <h1><%=pageTitle %></h1>
     <p>there are <%=books.length%> books</p>
     <% books.forEach(book=> { %>
         <div class="book">
